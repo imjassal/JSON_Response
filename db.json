@@ -1,0 +1,28 @@
+[
+    {
+      name: 'root1',
+      children: [
+        {
+          name: 'child1'
+        }, {
+          name: 'child2'
+        }
+      ]
+    },
+    {
+      name: 'root2',
+      children: [
+        {
+          name: 'child2.1'
+        }, {
+          name: 'child2.2',
+          children: [
+            {
+              id: 1001,
+              name: 'subsub'
+            }
+          ]
+        }
+      ]
+    }
+  ]
